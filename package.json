@@ -1,0 +1,32 @@
+{
+  "name": "phaser3-ts-cli",
+  "version": "1.0.0",
+  "description": "Generate phaser3 typescript webpack project nicely",
+  "bin": {
+    "phaser3-ts": "bin/generate.js"
+  },
+  "scripts": {
+    "start": "rm -rf test && node bin/generate.js create test",
+    "prepublishOnly": "bash generate.sh"
+  },
+  "author": "bobhfut <bobobalabala@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.1",
+    "axios": "^0.21.1",
+    "caporal": "^1.1.0",
+    "chalk": "^2.4.1",
+    "ejs": "^2.6.1",
+    "execa": "^1.0.0",
+    "form-data": "^3.0.0",
+    "fs-extra": "^7.0.1",
+    "glob": "^7.1.6",
+    "prompts": "^2.0.1",
+    "rimraf": "^3.0.2"
+  },
+  "files": [
+    "bin",
+    "src",
+    "templates"
+  ]
+}
