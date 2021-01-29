@@ -22,11 +22,12 @@ function createTemplateFileTree(templatePath, currentPath = '') {
     if (isDirectory) {
       createTemplateFileTree(templatePath, path.join(currentPath, f))
     } else {
-      let file = fs.readFileSync(path.join(templatePath, currentPath, f), { encoding: 'utf8' })
       if (f.endsWith('.ejs')) {
+        let file = fs.readFileSync(path.join(templatePath, currentPath, f), { encoding: 'utf8' })
         let output = ejs.render(file, { packageName, author, description })
         templateFileTree.set(path.join(currentPath, f.slice(0, -4)), output)
       } else {
+        let file = fs.readFileSync(path.join(templatePath, currentPath, f))
         templateFileTree.set(path.join(currentPath, f), file)
       }
     }
