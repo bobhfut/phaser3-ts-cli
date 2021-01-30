@@ -1,6 +1,6 @@
 {
   "name": "phaser3-ts-cli",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "description": "Generate phaser3 typescript webpack project nicely",
   "bin": {
     "phaser3-ts": "bin/generate.js"

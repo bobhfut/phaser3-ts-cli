@@ -1,7 +1,6 @@
 # Generate phaser3 typescript webpack project nicely
 
-### Using Phaser3 + Typescript + Webpack5
-continue updating...
+Using Phaser3 + Typescript + Webpack5
 
 ## Install
 
@@ -20,4 +19,5 @@ to generate your own project~
 
 
 ## Author
-github: [bobhfut](https://github.com/bobhfut) email: <bobobalabala@outlook.com>
+github: [bobhfut](https://github.com/bobhfut)   
+email: <bobobalabala@outlook.com>
