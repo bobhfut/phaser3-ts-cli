@@ -1,6 +1,6 @@
 # phaser3-ts-cli
 
-phaser3-ts-cli is a simple cli for generate project that using phaser3 and typescript.
+Generate phaser3 typescript webpack project nicely
 
 ## Install
 
