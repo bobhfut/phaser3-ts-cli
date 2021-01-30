@@ -1,6 +1,7 @@
-# phaser3-ts-cli
+# Generate phaser3 typescript webpack project nicely
 
-Generate phaser3 typescript webpack project nicely
+### Using Phaser3 + Typescript + Webpack5
+continue updating...
 
 ## Install
 
@@ -9,26 +10,14 @@ npm i phaser3-ts-cli -g
 ```
 
 ## Usage
-phaser3-ts-cli register 'phaser3-ts' or 'phaser3-ts' command globally.
+phaser3-ts-cli register 'phaser3-ts' command globally.
+
+Run :
 ```shell
-$ phaser3-ts
+$ phaser3-ts create <your projec name>
 ```
-
-```shell
-  phaser3-ts
-
-  USAGE
-
-    phaser3-ts <command> [options]
-
-  COMMANDS
-
-    create <project>       Create new project from template
-    help <command>         Display help for a specific command
-```
-### phaser3-ts create <project>
-Create new project from template
+to generate your own project~
 
 
 ## Author
-bobhfut <bobobalabala@outlook.com>
+github: [bobhfut](https://github.com/bobhfut) email: <bobobalabala@outlook.com>
